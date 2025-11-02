@@ -1,0 +1,91 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+body {
+  width: 800px;
+  background: #f8f8f8;
+}
+
+h1 {
+  font-size: xx-large;
+  align-content: center;
+  width: fit-content;
+  margin-block: 30px;
+}
+
+.contact {
+  flex-direction: row;
+  display: flex;
+}
+
+.contact-links a,
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(1, 81, 81);
+  font-weight: 900;
+}
+
+.contact-links li {
+  margin: 7px;
+}
+
+.contact-links {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin: 35px;
+  padding: 12px;
+}
+
+.my-img {
+  border-radius: 5rem;
+  padding: 12px;
+  margin: 12px;
+}
+
+h2 {
+  font-size: larger;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+section li {
+  margin: 3px;
+}
+
+section {
+  padding: 25px;
+  outline-width: 0.5px;
+  outline-style: solid;
+  outline-color: black;
+}
+
+.detailed-sec ul {
+  margin-inline: 10px;
+}
+
+.tech-skills-sec,
+footer {
+  margin-bottom: 10px;
+}
+.summ-sec-p,
+.tech-sec-ul {
+  padding-left: 25px;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+}
